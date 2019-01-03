@@ -2179,4 +2179,12 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
+menu "Parse Library"
+    source "package/parse/Config.in"
+endmenu
+
+menu "Sensworx Application"
+    source "package/gateway/Config.in"
+endmenu
+
 endmenu
